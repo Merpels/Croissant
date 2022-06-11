@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+  padding: 0 20px;
+  background-image: var(--gradient);
+  background-repeat: no-repeat;
+  min-height: calc(500px);
+}
+
+:root {
+  --primary-color: #3581b8;
+  --secondary-color: #fcb07e;
+  --accent-color: #dee2d6;
+  --gradient: linear-gradient(to top, white 0%, #ebe9e9 100%);
+  --box-shadow: #f3f8f2;
+}
+
+h1 {
+  color: var(--primary-color);
+  text-align: center;
+  padding: 30px;
+  text-decoration: underline;
+}
+
+p {
+  text-align: center;
+  color: var(--secondary-color);
+  border: 2px solid var(--box-shadow);
+  background-color: var(--accent-color);
+  padding: 20px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.nonexistent-email {
+  text-decoration: underline;
+  color: blue;
+}
+
+.nonexistent-email:hover {
+  cursor: pointer;
+}
